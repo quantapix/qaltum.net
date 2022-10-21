@@ -1,6 +1,6 @@
 languageCode: "en"
-title: "FemFas.net"
-baseURL: "https://femfas.net/"
+title: "Qaltum.net"
+baseURL: "https://qaltum.net/"
 relativeURLs: true
 theme: "qalugo"
 
@@ -54,16 +54,16 @@ module:
       target: static
 
 params:
-  description: "Predatory Feminism is Fascism"
-  authors: "FemFas.net - With unconditional love for our children"
-  version: "0.2.0"
+  description: "Altum [Tide] Of Normality"
+  authors: "Qaltum.net - Grassroots 'Toxic Masculinity' March To SCOTUS"
+  version: "0.1.0"
 
 deployment:
   order: [".jpg$", ".gif$"]
   targets:
-    name: "femfas.net"
-    URL: "s3://femfas.net?region=us-east-1"
-    cloudFrontDistributionID: E1HSASY4B6ODER
+    name: "qaltum.net"
+    URL: "s3://qaltum.net?region=us-east-1"
+    cloudFrontDistributionID: E2Y5AYDDC55FZ4
     # include = "**.html" # would only include files with ".html" suffix
     # exclude = "**.{jpg, png}" # would exclude files with ".jpg" or ".png" suffix
   matchers:

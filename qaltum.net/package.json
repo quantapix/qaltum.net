@@ -1,5 +1,5 @@
 {
-  "name": "femfas.net",
+  "name": "qaltum.net",
   "author": "quantapix <quantapix@gmail.com>",
   "license": "MIT",
   "main": "index.js",
@@ -9,8 +9,7 @@
     "prep": "git submodule update --init --recursive",
     "dev": "hugo server --config github.yml --minify",
     "build": "rm -rf public; HUGO_ENV=\"production\" hugo --config github.yml --minify --gc",
-    "femfas.com": "rm -rf public; HUGO_ENV=\"production\" hugo --config femfas.com.yml --minify --gc; hugo deploy --config femfas.com.yml --verbose",
-    "femfas.net": "rm -rf public; HUGO_ENV=\"production\" hugo --config femfas.net.yml --minify --gc; hugo deploy --config femfas.net.yml --verbose"
+    "qaltum.net": "rm -rf public; HUGO_ENV=\"production\" hugo --config qaltum.net.yml --minify --gc; hugo deploy --config qaltum.net.yml --verbose"
   },
   "devDependencies": {
     "autoprefixer": "",
